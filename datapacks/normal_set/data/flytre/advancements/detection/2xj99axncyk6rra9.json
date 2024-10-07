@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "2xj99axncyk6rra9": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "allium"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "2xj99axncyk6rra9"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "2xj99axncyk6rra9"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/2xj99axncyk6rra9/base"
+  }
+}

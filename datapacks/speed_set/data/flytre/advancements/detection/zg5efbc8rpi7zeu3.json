@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "zg5efbc8rpi7zeu3": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "copper_block"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "zg5efbc8rpi7zeu3"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "zg5efbc8rpi7zeu3"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/zg5efbc8rpi7zeu3/base"
+  }
+}

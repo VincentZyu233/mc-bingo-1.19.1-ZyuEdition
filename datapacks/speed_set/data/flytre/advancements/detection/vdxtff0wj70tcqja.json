@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "vdxtff0wj70tcqja": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sugar"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "vdxtff0wj70tcqja"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "vdxtff0wj70tcqja"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/vdxtff0wj70tcqja/base"
+  }
+}

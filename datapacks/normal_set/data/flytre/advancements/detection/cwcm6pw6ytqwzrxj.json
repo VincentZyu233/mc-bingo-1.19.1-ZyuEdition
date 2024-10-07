@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "cwcm6pw6ytqwzrxj": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "birch_door"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "cwcm6pw6ytqwzrxj"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "cwcm6pw6ytqwzrxj"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/cwcm6pw6ytqwzrxj/base"
+  }
+}

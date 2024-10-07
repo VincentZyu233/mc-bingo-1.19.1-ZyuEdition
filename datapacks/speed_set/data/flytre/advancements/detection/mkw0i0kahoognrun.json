@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "mkw0i0kahoognrun": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cauldron"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "mkw0i0kahoognrun"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "mkw0i0kahoognrun"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/mkw0i0kahoognrun/base"
+  }
+}

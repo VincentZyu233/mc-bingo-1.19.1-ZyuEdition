@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "n7oa30fdn6etd60j": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "iron_boots"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "n7oa30fdn6etd60j"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "n7oa30fdn6etd60j"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/n7oa30fdn6etd60j/base"
+  }
+}

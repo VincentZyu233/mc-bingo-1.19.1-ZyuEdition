@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "o3a3nw0fx7m4wfxj": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "prismarine"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "o3a3nw0fx7m4wfxj"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "o3a3nw0fx7m4wfxj"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/o3a3nw0fx7m4wfxj/base"
+  }
+}

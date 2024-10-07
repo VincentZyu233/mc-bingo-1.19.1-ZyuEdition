@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "wktmdbfihkusezon": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sea_pickle"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "wktmdbfihkusezon"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "wktmdbfihkusezon"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/wktmdbfihkusezon/base"
+  }
+}

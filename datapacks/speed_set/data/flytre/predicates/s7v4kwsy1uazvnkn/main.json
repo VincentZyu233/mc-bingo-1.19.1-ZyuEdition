@@ -1,0 +1,74 @@
+[
+  {
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "s7v4kwsy1uazvnkn"
+      },
+      "score": "global"
+    },
+    "range": {
+      "min": 1
+    }
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "flytre:s7v4kwsy1uazvnkn/red"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "flytre:s7v4kwsy1uazvnkn/yellow"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "flytre:s7v4kwsy1uazvnkn/green"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "flytre:s7v4kwsy1uazvnkn/blue"
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "lockout"
+            },
+            "score": "stage"
+          },
+          "range": 1
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "completed"
+            },
+            "score": "s7v4kwsy1uazvnkn"
+          },
+          "range": {
+            "min": 1
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "xpadr0fw3xrqh8df": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dark_oak_boat"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "xpadr0fw3xrqh8df"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "xpadr0fw3xrqh8df"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/xpadr0fw3xrqh8df/base"
+  }
+}

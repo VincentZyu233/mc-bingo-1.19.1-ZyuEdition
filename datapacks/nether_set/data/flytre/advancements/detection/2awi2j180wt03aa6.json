@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "2awi2j180wt03aa6": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cracked_polished_blackstone_bricks"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "2awi2j180wt03aa6"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "2awi2j180wt03aa6"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/2awi2j180wt03aa6/base"
+  }
+}

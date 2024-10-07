@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "48r86j7mo1r5j469": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bookshelf"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "48r86j7mo1r5j469"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "48r86j7mo1r5j469"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/48r86j7mo1r5j469/base"
+  }
+}

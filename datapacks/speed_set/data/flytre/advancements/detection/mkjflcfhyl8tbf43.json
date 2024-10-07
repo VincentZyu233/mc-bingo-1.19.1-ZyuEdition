@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "mkjflcfhyl8tbf43": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rabbit_hide"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "mkjflcfhyl8tbf43"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "mkjflcfhyl8tbf43"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/mkjflcfhyl8tbf43/base"
+  }
+}

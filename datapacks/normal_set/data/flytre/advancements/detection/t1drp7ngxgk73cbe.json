@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "t1drp7ngxgk73cbe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "deepslate_bricks"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "t1drp7ngxgk73cbe"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "t1drp7ngxgk73cbe"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/t1drp7ngxgk73cbe/base"
+  }
+}

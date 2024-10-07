@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "6gzxlbinxuck91mn": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "leather_helmet"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "6gzxlbinxuck91mn"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "6gzxlbinxuck91mn"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/6gzxlbinxuck91mn/base"
+  }
+}

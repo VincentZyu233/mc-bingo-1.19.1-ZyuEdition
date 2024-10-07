@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "mhcypfcb202rt8m5": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "purple_dye"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "mhcypfcb202rt8m5"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "mhcypfcb202rt8m5"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/mhcypfcb202rt8m5/base"
+  }
+}

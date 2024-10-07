@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "gc7ov5zongkkf6s3": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "magma_cream"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "gc7ov5zongkkf6s3"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "gc7ov5zongkkf6s3"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/gc7ov5zongkkf6s3/base"
+  }
+}

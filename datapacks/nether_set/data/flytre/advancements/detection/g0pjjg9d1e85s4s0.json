@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "g0pjjg9d1e85s4s0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bone_meal"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "g0pjjg9d1e85s4s0"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "g0pjjg9d1e85s4s0"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/g0pjjg9d1e85s4s0/base"
+  }
+}

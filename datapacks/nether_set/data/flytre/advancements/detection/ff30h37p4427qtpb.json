@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "ff30h37p4427qtpb": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "crimson_planks"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "ff30h37p4427qtpb"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ff30h37p4427qtpb"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/ff30h37p4427qtpb/base"
+  }
+}

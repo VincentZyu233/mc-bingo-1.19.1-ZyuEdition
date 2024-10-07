@@ -1,0 +1,74 @@
+[
+  {
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "mkw0i0kahoognrun"
+      },
+      "score": "global"
+    },
+    "range": {
+      "min": 1
+    }
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "flytre:mkw0i0kahoognrun/red"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "flytre:mkw0i0kahoognrun/yellow"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "flytre:mkw0i0kahoognrun/green"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "flytre:mkw0i0kahoognrun/blue"
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "lockout"
+            },
+            "score": "stage"
+          },
+          "range": 1
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:value_check",
+          "value": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:fixed",
+              "name": "completed"
+            },
+            "score": "mkw0i0kahoognrun"
+          },
+          "range": {
+            "min": 1
+          }
+        }
+      }
+    ]
+  }
+]

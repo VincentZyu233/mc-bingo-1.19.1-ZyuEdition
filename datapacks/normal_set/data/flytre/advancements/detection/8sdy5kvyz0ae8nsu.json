@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "8sdy5kvyz0ae8nsu": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "powder_snow_bucket"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "8sdy5kvyz0ae8nsu"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "8sdy5kvyz0ae8nsu"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/8sdy5kvyz0ae8nsu/base"
+  }
+}

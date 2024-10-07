@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "8xp9p95snj7yx67z": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "baked_potato"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "8xp9p95snj7yx67z"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "8xp9p95snj7yx67z"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/8xp9p95snj7yx67z/base"
+  }
+}

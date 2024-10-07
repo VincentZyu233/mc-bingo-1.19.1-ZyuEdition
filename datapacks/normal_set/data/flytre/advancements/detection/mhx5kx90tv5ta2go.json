@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "mhx5kx90tv5ta2go": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cooked_cod"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "mhx5kx90tv5ta2go"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "mhx5kx90tv5ta2go"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/mhx5kx90tv5ta2go/base"
+  }
+}

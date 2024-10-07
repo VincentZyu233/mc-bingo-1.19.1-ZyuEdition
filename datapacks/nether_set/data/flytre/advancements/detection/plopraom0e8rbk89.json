@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "plopraom0e8rbk89": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "respawn_anchor"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "plopraom0e8rbk89"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "plopraom0e8rbk89"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/plopraom0e8rbk89/base"
+  }
+}

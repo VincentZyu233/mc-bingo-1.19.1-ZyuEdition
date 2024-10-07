@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "l1wwmrpynhgrozt2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lead"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "l1wwmrpynhgrozt2"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "l1wwmrpynhgrozt2"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/l1wwmrpynhgrozt2/base"
+  }
+}

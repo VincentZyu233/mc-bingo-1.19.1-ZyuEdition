@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "72r2ur3x5coog05i": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "birch_sapling"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "72r2ur3x5coog05i"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "72r2ur3x5coog05i"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/72r2ur3x5coog05i/base"
+  }
+}

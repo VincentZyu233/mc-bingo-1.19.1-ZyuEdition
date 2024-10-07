@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "to3th54y1nwqwoqz": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chain"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "to3th54y1nwqwoqz"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "to3th54y1nwqwoqz"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/to3th54y1nwqwoqz/base"
+  }
+}

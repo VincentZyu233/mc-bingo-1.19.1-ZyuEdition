@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "42ad9xqutmmi8wch": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "crimson_fungus"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "42ad9xqutmmi8wch"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "42ad9xqutmmi8wch"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/42ad9xqutmmi8wch/base"
+  }
+}

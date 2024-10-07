@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "9r6xhazv421juek7": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "golden_chestplate"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "9r6xhazv421juek7"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "9r6xhazv421juek7"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/9r6xhazv421juek7/base"
+  }
+}

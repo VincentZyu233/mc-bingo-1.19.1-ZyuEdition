@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "kquyz80xtdk8heyc": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cut_red_sandstone"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "kquyz80xtdk8heyc"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "kquyz80xtdk8heyc"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/kquyz80xtdk8heyc/base"
+  }
+}

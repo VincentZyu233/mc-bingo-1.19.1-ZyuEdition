@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "jmdu5g1hzcrtqltq": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "diamond_shovel"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "jmdu5g1hzcrtqltq"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "jmdu5g1hzcrtqltq"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/jmdu5g1hzcrtqltq/base"
+  }
+}

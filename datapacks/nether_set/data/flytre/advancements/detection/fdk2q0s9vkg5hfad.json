@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "fdk2q0s9vkg5hfad": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "golden_horse_armor"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "fdk2q0s9vkg5hfad"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "fdk2q0s9vkg5hfad"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/fdk2q0s9vkg5hfad/base"
+  }
+}

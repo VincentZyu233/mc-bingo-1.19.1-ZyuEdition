@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "w83fzcmdtjx4ng5q": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "grass"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "w83fzcmdtjx4ng5q"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "w83fzcmdtjx4ng5q"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/w83fzcmdtjx4ng5q/base"
+  }
+}

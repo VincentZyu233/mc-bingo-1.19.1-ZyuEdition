@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "xjdf9laf045apyab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "glowstone_dust"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "xjdf9laf045apyab"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "xjdf9laf045apyab"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/xjdf9laf045apyab/base"
+  }
+}

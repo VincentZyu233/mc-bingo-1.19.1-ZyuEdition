@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "1r4lso2yog6ij23v": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "book"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "1r4lso2yog6ij23v"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "1r4lso2yog6ij23v"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/1r4lso2yog6ij23v/base"
+  }
+}

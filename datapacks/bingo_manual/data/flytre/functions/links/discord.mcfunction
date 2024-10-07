@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":">>> ","bold":true,"color":"gray"},{"text":"点击 ","color":"gray","clickEvent":{"action":"open_url","value":"https://discord.gg/McTcKHQBZF"}},{"text":"<这里>","bold":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://discord.gg/McTcKHQBZF"}},{"text":" 加入 ","color":"gray","clickEvent":{"action":"open_url","value":"https://discord.gg/McTcKHQBZF"}},{"text":"Flytre的Discord","bold":true,"color":"blue"}]
+playsound minecraft:enchant.thorns.hit master @s ~ ~ ~ 1 1

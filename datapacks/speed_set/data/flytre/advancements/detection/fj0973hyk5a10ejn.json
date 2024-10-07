@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "fj0973hyk5a10ejn": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "glow_berries"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "fj0973hyk5a10ejn"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "fj0973hyk5a10ejn"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/fj0973hyk5a10ejn/base"
+  }
+}

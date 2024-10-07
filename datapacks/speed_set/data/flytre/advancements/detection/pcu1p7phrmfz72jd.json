@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "pcu1p7phrmfz72jd": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vine"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "pcu1p7phrmfz72jd"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "pcu1p7phrmfz72jd"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/pcu1p7phrmfz72jd/base"
+  }
+}

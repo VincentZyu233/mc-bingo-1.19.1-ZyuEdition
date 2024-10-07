@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "uiwvuyap76fv7dif": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "slime_ball"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "uiwvuyap76fv7dif"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "uiwvuyap76fv7dif"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/uiwvuyap76fv7dif/base"
+  }
+}

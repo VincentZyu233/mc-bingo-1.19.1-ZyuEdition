@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "mhw65zpg33uqe6z6": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "firework_rocket"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "mhw65zpg33uqe6z6"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "mhw65zpg33uqe6z6"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/mhw65zpg33uqe6z6/base"
+  }
+}

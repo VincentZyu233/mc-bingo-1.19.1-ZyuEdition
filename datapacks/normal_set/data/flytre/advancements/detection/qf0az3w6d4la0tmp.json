@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "qf0az3w6d4la0tmp": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "experience_bottle"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "qf0az3w6d4la0tmp"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "qf0az3w6d4la0tmp"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/qf0az3w6d4la0tmp/base"
+  }
+}

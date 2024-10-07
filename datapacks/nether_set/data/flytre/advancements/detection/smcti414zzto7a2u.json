@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "smcti414zzto7a2u": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nether_wart"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "smcti414zzto7a2u"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "smcti414zzto7a2u"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/smcti414zzto7a2u/base"
+  }
+}

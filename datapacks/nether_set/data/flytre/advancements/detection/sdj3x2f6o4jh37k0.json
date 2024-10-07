@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "sdj3x2f6o4jh37k0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chiseled_nether_bricks"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "sdj3x2f6o4jh37k0"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "sdj3x2f6o4jh37k0"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/sdj3x2f6o4jh37k0/base"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "7214slh96g6wwxtt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bread"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "7214slh96g6wwxtt"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "7214slh96g6wwxtt"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/7214slh96g6wwxtt/base"
+  }
+}

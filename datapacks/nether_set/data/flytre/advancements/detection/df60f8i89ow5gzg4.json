@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "df60f8i89ow5gzg4": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bow"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "df60f8i89ow5gzg4"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "df60f8i89ow5gzg4"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/df60f8i89ow5gzg4/base"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "h5xmbnjda7q8q72u": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "white_wool"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "h5xmbnjda7q8q72u"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "h5xmbnjda7q8q72u"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/h5xmbnjda7q8q72u/base"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "xofygpgmzkr3vwry": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "brewing_stand"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "xofygpgmzkr3vwry"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "xofygpgmzkr3vwry"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/xofygpgmzkr3vwry/base"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "n95k26fywiofv1em": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "polished_diorite"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "n95k26fywiofv1em"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "n95k26fywiofv1em"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/n95k26fywiofv1em/base"
+  }
+}

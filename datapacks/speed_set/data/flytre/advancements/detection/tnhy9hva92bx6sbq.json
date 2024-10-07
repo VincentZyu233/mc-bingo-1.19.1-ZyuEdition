@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "tnhy9hva92bx6sbq": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "barrel"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "tnhy9hva92bx6sbq"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "tnhy9hva92bx6sbq"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/tnhy9hva92bx6sbq/base"
+  }
+}

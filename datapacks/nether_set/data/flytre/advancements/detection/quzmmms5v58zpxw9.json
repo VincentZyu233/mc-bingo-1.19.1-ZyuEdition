@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "quzmmms5v58zpxw9": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "twisting_vines"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "quzmmms5v58zpxw9"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "quzmmms5v58zpxw9"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/quzmmms5v58zpxw9/base"
+  }
+}

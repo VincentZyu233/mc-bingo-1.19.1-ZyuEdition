@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "s7v4kwsy1uazvnkn": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "iron_hoe"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "s7v4kwsy1uazvnkn"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "s7v4kwsy1uazvnkn"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/s7v4kwsy1uazvnkn/base"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "wcbuzucxcf4t15vy": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mushroom_stew"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "wcbuzucxcf4t15vy"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "wcbuzucxcf4t15vy"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/wcbuzucxcf4t15vy/base"
+  }
+}

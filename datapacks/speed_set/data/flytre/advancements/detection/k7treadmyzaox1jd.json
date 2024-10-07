@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "k7treadmyzaox1jd": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "smithing_table"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "k7treadmyzaox1jd"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "k7treadmyzaox1jd"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/k7treadmyzaox1jd/base"
+  }
+}

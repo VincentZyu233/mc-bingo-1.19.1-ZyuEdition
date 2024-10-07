@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "6ycjyb2cln611bo2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "smooth_basalt"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "6ycjyb2cln611bo2"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "6ycjyb2cln611bo2"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/6ycjyb2cln611bo2/base"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "bmkdzbev8z19iwab": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bone"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "bmkdzbev8z19iwab"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "bmkdzbev8z19iwab"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/bmkdzbev8z19iwab/base"
+  }
+}

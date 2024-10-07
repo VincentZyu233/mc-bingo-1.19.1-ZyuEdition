@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "t9lrjsqh4dcz2d4r": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lapis_lazuli"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "t9lrjsqh4dcz2d4r"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "t9lrjsqh4dcz2d4r"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/t9lrjsqh4dcz2d4r/base"
+  }
+}

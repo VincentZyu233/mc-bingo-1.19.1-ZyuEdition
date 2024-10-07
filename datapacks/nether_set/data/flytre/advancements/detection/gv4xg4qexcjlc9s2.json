@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "gv4xg4qexcjlc9s2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soul_sand"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "gv4xg4qexcjlc9s2"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "gv4xg4qexcjlc9s2"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/gv4xg4qexcjlc9s2/base"
+  }
+}

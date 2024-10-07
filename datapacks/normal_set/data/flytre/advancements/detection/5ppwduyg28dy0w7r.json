@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "5ppwduyg28dy0w7r": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "piston"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "5ppwduyg28dy0w7r"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "5ppwduyg28dy0w7r"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/5ppwduyg28dy0w7r/base"
+  }
+}

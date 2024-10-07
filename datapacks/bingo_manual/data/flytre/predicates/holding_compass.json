@@ -1,0 +1,28 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "items": [
+            "minecraft:compass"
+          ],
+          "nbt": "{tracker:1}"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "lockout"
+      },
+      "score": "stage"
+    },
+    "range": 2
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "3swa3zz8k311gpc5": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "golden_sword"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "3swa3zz8k311gpc5"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "3swa3zz8k311gpc5"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/3swa3zz8k311gpc5/base"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "bmvjll213mn0pxyg": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wheat_seeds"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "bmvjll213mn0pxyg"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "bmvjll213mn0pxyg"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/bmvjll213mn0pxyg/base"
+  }
+}

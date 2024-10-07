@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "2nnbvnidhpsyl7ro": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fletching_table"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "2nnbvnidhpsyl7ro"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "2nnbvnidhpsyl7ro"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/2nnbvnidhpsyl7ro/base"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "2iq9m4jai07eymzb": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lilac"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "2iq9m4jai07eymzb"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "2iq9m4jai07eymzb"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/2iq9m4jai07eymzb/base"
+  }
+}

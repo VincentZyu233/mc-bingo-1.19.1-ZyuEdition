@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "o9d0w607g6kzt2ti": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dead_brain_coral_block"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "o9d0w607g6kzt2ti"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "o9d0w607g6kzt2ti"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/o9d0w607g6kzt2ti/base"
+  }
+}

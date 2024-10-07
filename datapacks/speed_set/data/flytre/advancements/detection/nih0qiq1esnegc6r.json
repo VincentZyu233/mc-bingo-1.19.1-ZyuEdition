@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "nih0qiq1esnegc6r": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cornflower"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "nih0qiq1esnegc6r"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "nih0qiq1esnegc6r"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/nih0qiq1esnegc6r/base"
+  }
+}

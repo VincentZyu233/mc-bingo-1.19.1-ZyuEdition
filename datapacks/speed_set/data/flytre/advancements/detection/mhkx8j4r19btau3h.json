@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "mhkx8j4r19btau3h": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mud_bricks"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "mhkx8j4r19btau3h"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "mhkx8j4r19btau3h"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/mhkx8j4r19btau3h/base"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "ohmw8wkrlafg3mg8": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "beehive"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "ohmw8wkrlafg3mg8"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ohmw8wkrlafg3mg8"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/ohmw8wkrlafg3mg8/base"
+  }
+}

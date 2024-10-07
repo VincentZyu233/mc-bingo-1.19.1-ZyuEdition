@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "0656rhr7xniqia3u": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "brown_mushroom"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "0656rhr7xniqia3u"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "0656rhr7xniqia3u"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/0656rhr7xniqia3u/base"
+  }
+}

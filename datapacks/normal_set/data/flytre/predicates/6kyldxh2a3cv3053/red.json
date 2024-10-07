@@ -1,0 +1,21 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "team": "red"
+    }
+  },
+  {
+    "condition": "minecraft:value_check",
+    "value": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "red"
+      },
+      "score": "6kyldxh2a3cv3053"
+    },
+    "range": 0
+  }
+]

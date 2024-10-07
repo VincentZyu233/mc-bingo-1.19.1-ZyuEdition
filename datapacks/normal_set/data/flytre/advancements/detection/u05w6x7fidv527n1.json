@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "u05w6x7fidv527n1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "charcoal"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "u05w6x7fidv527n1"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "u05w6x7fidv527n1"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/u05w6x7fidv527n1/base"
+  }
+}

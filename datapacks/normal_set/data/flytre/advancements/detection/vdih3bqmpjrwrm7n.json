@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "vdih3bqmpjrwrm7n": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dispenser"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "vdih3bqmpjrwrm7n"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "vdih3bqmpjrwrm7n"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/vdih3bqmpjrwrm7n/base"
+  }
+}

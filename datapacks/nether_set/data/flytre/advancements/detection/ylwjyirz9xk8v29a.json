@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "ylwjyirz9xk8v29a": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "shroomlight"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "ylwjyirz9xk8v29a"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ylwjyirz9xk8v29a"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/ylwjyirz9xk8v29a/base"
+  }
+}

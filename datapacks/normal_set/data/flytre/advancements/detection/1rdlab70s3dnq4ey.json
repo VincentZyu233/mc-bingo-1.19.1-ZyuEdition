@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "1rdlab70s3dnq4ey": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cobweb"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "1rdlab70s3dnq4ey"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "1rdlab70s3dnq4ey"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/1rdlab70s3dnq4ey/base"
+  }
+}

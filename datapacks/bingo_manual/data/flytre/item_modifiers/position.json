@@ -1,0 +1,26 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "flytre:detect"
+    },
+    "ops": [
+      {
+        "source": "Pos2[0]",
+        "target": "LodestonePos.X",
+        "op": "replace"
+      },
+      {
+        "source": "Pos2[1]",
+        "target": "LodestonePos.Y",
+        "op": "replace"
+      },
+      {
+        "source": "Pos2[2]",
+        "target": "LodestonePos.Z",
+        "op": "replace"
+      }
+    ]
+  }
+]

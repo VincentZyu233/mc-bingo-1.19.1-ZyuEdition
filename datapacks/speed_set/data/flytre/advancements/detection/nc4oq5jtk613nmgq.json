@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "nc4oq5jtk613nmgq": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "iron_trapdoor"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "nc4oq5jtk613nmgq"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "nc4oq5jtk613nmgq"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/nc4oq5jtk613nmgq/base"
+  }
+}

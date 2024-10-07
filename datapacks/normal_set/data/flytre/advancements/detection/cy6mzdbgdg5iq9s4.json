@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "cy6mzdbgdg5iq9s4": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sugar_cane"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "cy6mzdbgdg5iq9s4"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "cy6mzdbgdg5iq9s4"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/cy6mzdbgdg5iq9s4/base"
+  }
+}

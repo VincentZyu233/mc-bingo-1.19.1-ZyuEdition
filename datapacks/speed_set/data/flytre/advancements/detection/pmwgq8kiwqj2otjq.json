@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "pmwgq8kiwqj2otjq": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "crossbow"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "pmwgq8kiwqj2otjq"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "pmwgq8kiwqj2otjq"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/pmwgq8kiwqj2otjq/base"
+  }
+}

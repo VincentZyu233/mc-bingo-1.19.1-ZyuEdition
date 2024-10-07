@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "ubinac0oh6td92jl": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "golden_pickaxe"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "ubinac0oh6td92jl"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ubinac0oh6td92jl"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/ubinac0oh6td92jl/base"
+  }
+}

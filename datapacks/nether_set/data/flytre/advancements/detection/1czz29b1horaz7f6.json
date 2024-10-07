@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "1czz29b1horaz7f6": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stone_pickaxe"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "1czz29b1horaz7f6"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "1czz29b1horaz7f6"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/1czz29b1horaz7f6/base"
+  }
+}

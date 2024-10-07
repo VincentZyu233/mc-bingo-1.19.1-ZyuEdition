@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "d6unv9qyu35ai0ds": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stone_hoe"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "d6unv9qyu35ai0ds"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "d6unv9qyu35ai0ds"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/d6unv9qyu35ai0ds/base"
+  }
+}

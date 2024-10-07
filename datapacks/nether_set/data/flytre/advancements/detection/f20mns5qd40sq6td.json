@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "f20mns5qd40sq6td": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fire_charge"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "f20mns5qd40sq6td"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "f20mns5qd40sq6td"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/f20mns5qd40sq6td/base"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "scg0j531cbk02mew": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soul_campfire"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "scg0j531cbk02mew"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "scg0j531cbk02mew"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/scg0j531cbk02mew/base"
+  }
+}

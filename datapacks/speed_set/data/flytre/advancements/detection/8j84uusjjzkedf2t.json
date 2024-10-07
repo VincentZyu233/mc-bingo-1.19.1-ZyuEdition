@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "8j84uusjjzkedf2t": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "iron_axe"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "8j84uusjjzkedf2t"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "8j84uusjjzkedf2t"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/8j84uusjjzkedf2t/base"
+  }
+}

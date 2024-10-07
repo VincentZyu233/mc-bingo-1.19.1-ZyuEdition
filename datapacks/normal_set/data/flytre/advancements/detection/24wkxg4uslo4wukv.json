@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "24wkxg4uslo4wukv": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rabbit"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "24wkxg4uslo4wukv"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "24wkxg4uslo4wukv"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/24wkxg4uslo4wukv/base"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "myjzcaf9uga6ktnp": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ink_sac"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "myjzcaf9uga6ktnp"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "myjzcaf9uga6ktnp"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/myjzcaf9uga6ktnp/base"
+  }
+}

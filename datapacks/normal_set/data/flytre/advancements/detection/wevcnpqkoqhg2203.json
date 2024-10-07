@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "wevcnpqkoqhg2203": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spruce_sapling"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "wevcnpqkoqhg2203"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "wevcnpqkoqhg2203"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/wevcnpqkoqhg2203/base"
+  }
+}

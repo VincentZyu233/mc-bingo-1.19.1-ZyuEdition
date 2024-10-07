@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "4ro4831xza9ggfr9": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pumpkin_pie"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "4ro4831xza9ggfr9"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "4ro4831xza9ggfr9"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/4ro4831xza9ggfr9/base"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "lnrydshauahurt0e": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spider_eye"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "lnrydshauahurt0e"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "lnrydshauahurt0e"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/lnrydshauahurt0e/base"
+  }
+}

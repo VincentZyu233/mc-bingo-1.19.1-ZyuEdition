@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "7s2hf4jgsmcfd8tn": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "redstone_torch"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "7s2hf4jgsmcfd8tn"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "7s2hf4jgsmcfd8tn"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/7s2hf4jgsmcfd8tn/base"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "6ioc2h8u8ur8n2ij": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "feather"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "6ioc2h8u8ur8n2ij"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "6ioc2h8u8ur8n2ij"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/6ioc2h8u8ur8n2ij/base"
+  }
+}

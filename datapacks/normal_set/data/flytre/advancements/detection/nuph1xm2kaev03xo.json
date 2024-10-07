@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "nuph1xm2kaev03xo": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chiseled_sandstone"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "nuph1xm2kaev03xo"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "nuph1xm2kaev03xo"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/nuph1xm2kaev03xo/base"
+  }
+}

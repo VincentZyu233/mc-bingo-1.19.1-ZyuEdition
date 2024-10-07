@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":">>> ","bold":true,"color":"gray"},{"text":"点击 ","color":"gray","clickEvent":{"action":"open_url","value":"https://www.flytre.net"}},{"text":"<这里>","bold":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://www.flytre.net"}},{"text":" 转到 ","color":"gray","clickEvent":{"action":"open_url","value":"https://www.flytre.net"}},{"text":"Flytre的网站","bold":true,"color":"gold"}]
+playsound minecraft:enchant.thorns.hit master @s ~ ~ ~ 1 1

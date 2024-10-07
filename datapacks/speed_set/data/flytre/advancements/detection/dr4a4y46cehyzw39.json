@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "dr4a4y46cehyzw39": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hay_block"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "dr4a4y46cehyzw39"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "dr4a4y46cehyzw39"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/dr4a4y46cehyzw39/base"
+  }
+}

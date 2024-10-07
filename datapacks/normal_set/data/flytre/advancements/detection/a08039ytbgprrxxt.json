@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "a08039ytbgprrxxt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "glow_item_frame"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "a08039ytbgprrxxt"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "a08039ytbgprrxxt"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/a08039ytbgprrxxt/base"
+  }
+}

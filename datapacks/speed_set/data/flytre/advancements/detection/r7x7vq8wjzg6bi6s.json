@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "r7x7vq8wjzg6bi6s": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "snowball"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "r7x7vq8wjzg6bi6s"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "r7x7vq8wjzg6bi6s"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/r7x7vq8wjzg6bi6s/base"
+  }
+}

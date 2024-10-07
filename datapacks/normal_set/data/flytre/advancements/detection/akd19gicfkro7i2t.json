@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "akd19gicfkro7i2t": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mossy_cobblestone"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "akd19gicfkro7i2t"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "akd19gicfkro7i2t"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/akd19gicfkro7i2t/base"
+  }
+}

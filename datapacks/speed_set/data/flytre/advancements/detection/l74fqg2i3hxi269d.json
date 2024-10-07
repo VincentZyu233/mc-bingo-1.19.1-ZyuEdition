@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "l74fqg2i3hxi269d": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lily_pad"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "l74fqg2i3hxi269d"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "l74fqg2i3hxi269d"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/l74fqg2i3hxi269d/base"
+  }
+}

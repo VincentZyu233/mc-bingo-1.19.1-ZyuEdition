@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "ekrwbsqv9qs07bbf": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "weeping_vines"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "ekrwbsqv9qs07bbf"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ekrwbsqv9qs07bbf"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/ekrwbsqv9qs07bbf/base"
+  }
+}

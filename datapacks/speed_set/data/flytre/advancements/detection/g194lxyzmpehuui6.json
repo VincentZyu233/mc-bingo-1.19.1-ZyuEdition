@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "g194lxyzmpehuui6": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "chiseled_stone_bricks"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "g194lxyzmpehuui6"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "g194lxyzmpehuui6"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/g194lxyzmpehuui6/base"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "mujnxqcde1y18h18": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "acacia_boat"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "mujnxqcde1y18h18"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "mujnxqcde1y18h18"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/mujnxqcde1y18h18/base"
+  }
+}

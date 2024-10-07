@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "4rc5aklnlno00ad0": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "poisonous_potato"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "4rc5aklnlno00ad0"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "4rc5aklnlno00ad0"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/4rc5aklnlno00ad0/base"
+  }
+}

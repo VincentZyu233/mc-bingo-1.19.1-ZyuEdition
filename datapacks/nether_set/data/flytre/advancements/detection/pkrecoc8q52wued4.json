@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "pkrecoc8q52wued4": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "iron_block"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "pkrecoc8q52wued4"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "pkrecoc8q52wued4"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/pkrecoc8q52wued4/base"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "77nfcbe753hguqv6": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "compass"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "77nfcbe753hguqv6"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "77nfcbe753hguqv6"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/77nfcbe753hguqv6/base"
+  }
+}

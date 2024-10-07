@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "evujocj4tpmgjg7x": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "warped_fungus"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "evujocj4tpmgjg7x"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "evujocj4tpmgjg7x"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/evujocj4tpmgjg7x/base"
+  }
+}

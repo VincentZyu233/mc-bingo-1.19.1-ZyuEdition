@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "2ixkgwqyxnoiu0py": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "campfire"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "2ixkgwqyxnoiu0py"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "2ixkgwqyxnoiu0py"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/2ixkgwqyxnoiu0py/base"
+  }
+}

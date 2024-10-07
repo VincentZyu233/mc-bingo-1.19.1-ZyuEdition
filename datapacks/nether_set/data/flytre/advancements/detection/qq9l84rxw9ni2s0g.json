@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "qq9l84rxw9ni2s0g": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ghast_tear"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "qq9l84rxw9ni2s0g"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "qq9l84rxw9ni2s0g"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/qq9l84rxw9ni2s0g/base"
+  }
+}

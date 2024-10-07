@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "8jktta6ohzjcz8rj": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sticky_piston"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "8jktta6ohzjcz8rj"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "8jktta6ohzjcz8rj"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/8jktta6ohzjcz8rj/base"
+  }
+}

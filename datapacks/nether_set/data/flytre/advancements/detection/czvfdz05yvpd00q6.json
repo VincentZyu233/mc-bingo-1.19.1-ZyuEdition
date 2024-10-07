@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "czvfdz05yvpd00q6": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cooked_porkchop"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "czvfdz05yvpd00q6"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "czvfdz05yvpd00q6"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/czvfdz05yvpd00q6/base"
+  }
+}

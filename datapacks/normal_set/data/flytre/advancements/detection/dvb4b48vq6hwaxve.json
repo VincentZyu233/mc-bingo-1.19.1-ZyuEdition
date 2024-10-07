@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "dvb4b48vq6hwaxve": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "leather_leggings"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "dvb4b48vq6hwaxve"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "dvb4b48vq6hwaxve"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/dvb4b48vq6hwaxve/base"
+  }
+}

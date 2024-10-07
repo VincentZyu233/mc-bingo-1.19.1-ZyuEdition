@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "d9eqrefbh69sovmg": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lava_bucket"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "d9eqrefbh69sovmg"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "d9eqrefbh69sovmg"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/d9eqrefbh69sovmg/base"
+  }
+}

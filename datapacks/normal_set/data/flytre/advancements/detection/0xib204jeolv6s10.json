@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "0xib204jeolv6s10": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "diamond_hoe"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "0xib204jeolv6s10"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "0xib204jeolv6s10"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/0xib204jeolv6s10/base"
+  }
+}

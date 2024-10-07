@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "0m6lcmzapmbfc3hz": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fermented_spider_eye"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "0m6lcmzapmbfc3hz"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "0m6lcmzapmbfc3hz"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/0m6lcmzapmbfc3hz/base"
+  }
+}

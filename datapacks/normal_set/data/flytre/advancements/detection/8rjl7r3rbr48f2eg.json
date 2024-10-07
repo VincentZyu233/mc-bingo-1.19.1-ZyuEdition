@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "8rjl7r3rbr48f2eg": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropical_fish"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "8rjl7r3rbr48f2eg"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "8rjl7r3rbr48f2eg"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/8rjl7r3rbr48f2eg/base"
+  }
+}

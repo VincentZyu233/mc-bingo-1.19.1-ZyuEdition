@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "nmsz3a97ih43ij7t": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ender_pearl"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "nmsz3a97ih43ij7t"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "nmsz3a97ih43ij7t"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/nmsz3a97ih43ij7t/base"
+  }
+}

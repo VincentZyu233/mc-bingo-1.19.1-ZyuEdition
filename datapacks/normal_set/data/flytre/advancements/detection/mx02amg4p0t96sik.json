@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "mx02amg4p0t96sik": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bell"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "mx02amg4p0t96sik"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "mx02amg4p0t96sik"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/mx02amg4p0t96sik/base"
+  }
+}

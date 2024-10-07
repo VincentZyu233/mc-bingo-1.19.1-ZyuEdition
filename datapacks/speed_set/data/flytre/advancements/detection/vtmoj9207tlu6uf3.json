@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "vtmoj9207tlu6uf3": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sweet_berries"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "vtmoj9207tlu6uf3"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "vtmoj9207tlu6uf3"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/vtmoj9207tlu6uf3/base"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "jar9iesp7tn6tqyz": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "composter"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "jar9iesp7tn6tqyz"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "jar9iesp7tn6tqyz"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/jar9iesp7tn6tqyz/base"
+  }
+}

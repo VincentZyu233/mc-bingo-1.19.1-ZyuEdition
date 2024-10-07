@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "uqgh59i23fyf1714": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "red_nether_bricks"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "uqgh59i23fyf1714"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "uqgh59i23fyf1714"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/uqgh59i23fyf1714/base"
+  }
+}

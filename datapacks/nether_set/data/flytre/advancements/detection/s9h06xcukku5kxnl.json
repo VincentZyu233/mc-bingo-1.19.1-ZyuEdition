@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "s9h06xcukku5kxnl": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "crimson_roots"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "s9h06xcukku5kxnl"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "s9h06xcukku5kxnl"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/s9h06xcukku5kxnl/base"
+  }
+}

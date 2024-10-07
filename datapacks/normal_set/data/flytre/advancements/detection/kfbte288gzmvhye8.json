@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "kfbte288gzmvhye8": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cooked_beef"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "kfbte288gzmvhye8"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "kfbte288gzmvhye8"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/kfbte288gzmvhye8/base"
+  }
+}

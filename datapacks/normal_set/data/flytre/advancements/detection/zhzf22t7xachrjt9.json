@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "zhzf22t7xachrjt9": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "armor_stand"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "zhzf22t7xachrjt9"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "zhzf22t7xachrjt9"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/zhzf22t7xachrjt9/base"
+  }
+}

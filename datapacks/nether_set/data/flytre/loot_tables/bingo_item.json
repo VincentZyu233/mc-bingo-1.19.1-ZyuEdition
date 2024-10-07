@@ -1,0 +1,709 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cooked_porkchop",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:czvfdz05yvpd00q6/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gilded_blackstone",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:zegrkgxsaid26loj/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "crossbow",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:pmwgq8kiwqj2otjq/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "saddle",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:obnsxczp9sbyry5m/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "soul_sand",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:gv4xg4qexcjlc9s2/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arrow",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:zorx93uyu7it1prz/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "weeping_vines",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:ekrwbsqv9qs07bbf/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fire_charge",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:f20mns5qd40sq6td/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iron_block",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:pkrecoc8q52wued4/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "glowstone",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:n6vdjpvi7fna53eu/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brown_mushroom",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:0656rhr7xniqia3u/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "blaze_rod",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:liqek9mavc4bvssk/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "warped_fungus_on_a_stick",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:5ink4onlbrcysua1/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "golden_horse_armor",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:fdk2q0s9vkg5hfad/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nether_wart",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:smcti414zzto7a2u/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "crying_obsidian",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:ajmnf7pdnu5p3l2j/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ghast_tear",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:qq9l84rxw9ni2s0g/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "red_nether_bricks",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:uqgh59i23fyf1714/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "soul_soil",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:3afd2a0bdnlf9583/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "obsidian",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:83y3xwobg4115qba/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gunpowder",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:c5um8xlz80dk6a44/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "twisting_vines",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:quzmmms5v58zpxw9/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nether_brick",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:9aokuq6dnttlyxtw/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "crimson_fungus",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:42ad9xqutmmi8wch/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "item_frame",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:npmfwwy4l3fpa5k7/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "diamond_sword",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:fbo4bijyhz1sqi36/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "golden_hoe",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:3fibfk22dkycjwqk/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gold_block",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:2v7g22bb51i3tjzb/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "warped_fungus",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:evujocj4tpmgjg7x/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "spectral_arrow",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:06dee8kvvtxucshb/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mushroom_stew",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:wcbuzucxcf4t15vy/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "coal",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:7p0spdw5jjxemj77/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "flint",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:2bsjkv4dkx418bf1/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "white_dye",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:9l7oef79b7gu1uwn/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cracked_polished_blackstone_bricks",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:2awi2j180wt03aa6/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "shroomlight",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:ylwjyirz9xk8v29a/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "respawn_anchor",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:plopraom0e8rbk89/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "string",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:9khzyyzvcrdg90y5/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "crimson_planks",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:ff30h37p4427qtpb/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brewing_stand",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:xofygpgmzkr3vwry/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bow",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:df60f8i89ow5gzg4/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "polished_basalt",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:4x2s3hvfm7eh3ajd/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "crimson_roots",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:s9h06xcukku5kxnl/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stripped_crimson_stem",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:vatnflkl1pa50aeo/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "basalt",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:wcduy2qoufm4ylzo/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iron_boots",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:n7oa30fdn6etd60j/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "soul_torch",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:chf3oe6fp4sslfxi/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bone_meal",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:g0pjjg9d1e85s4s0/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "golden_boots",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:8z4swifg4ahg0gnf/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ender_pearl",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:nmsz3a97ih43ij7t/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "netherrack",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:wai6liw8sneatpd5/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "golden_chestplate",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:9r6xhazv421juek7/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stone_pickaxe",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:1czz29b1horaz7f6/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lava_bucket",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:d9eqrefbh69sovmg/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "warped_sign",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:2y73b6ut1z6tra0x/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chiseled_nether_bricks",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:sdj3x2f6o4jh37k0/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "white_wool",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:h5xmbnjda7q8q72u/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "chain",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:to3th54y1nwqwoqz/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "gold_nugget",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:x4odsgj4xvqsqjlb/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "rotten_flesh",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:z2sgyx0lqa3r4d0y/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "quartz",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:7b49m3yiqjdbkta5/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lantern",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:gyikd1nswnmo9sy9/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stone_hoe",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:d6unv9qyu35ai0ds/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "smooth_basalt",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:6ycjyb2cln611bo2/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magma_cream",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:gc7ov5zongkkf6s3/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "soul_campfire",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:scg0j531cbk02mew/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "red_mushroom",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:z3xp4w8xhcfh3e5b/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "magma_block",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:9hoysrnx3qnm81r5/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "warped_wart_block",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:6jjmss5fur3o2qr2/main"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nether_wart_block",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "flytre:vb29vvn4v7nccv6m/main"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

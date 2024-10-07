@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "kkssinwi1t7uv1pf": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mangrove_chest_boat"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "kkssinwi1t7uv1pf"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "kkssinwi1t7uv1pf"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/kkssinwi1t7uv1pf/base"
+  }
+}

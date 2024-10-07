@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"4. 使用 /trigger give_map 如果你丢失了地图.","color":"dark_green"}]

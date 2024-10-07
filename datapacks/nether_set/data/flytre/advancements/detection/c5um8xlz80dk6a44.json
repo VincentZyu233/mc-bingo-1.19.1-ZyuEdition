@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "c5um8xlz80dk6a44": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gunpowder"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "c5um8xlz80dk6a44"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "c5um8xlz80dk6a44"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/c5um8xlz80dk6a44/base"
+  }
+}

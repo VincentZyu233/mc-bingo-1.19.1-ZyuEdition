@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"要使地图自动更新，请在游戏开始并运行后加入一个帐户然后用 /trigger view_map .","color":"dark_green"}]

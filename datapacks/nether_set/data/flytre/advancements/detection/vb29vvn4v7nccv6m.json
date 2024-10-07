@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "vb29vvn4v7nccv6m": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nether_wart_block"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "vb29vvn4v7nccv6m"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "vb29vvn4v7nccv6m"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/vb29vvn4v7nccv6m/base"
+  }
+}

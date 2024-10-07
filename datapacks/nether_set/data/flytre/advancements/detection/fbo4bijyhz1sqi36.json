@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "fbo4bijyhz1sqi36": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "diamond_sword"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "fbo4bijyhz1sqi36"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "fbo4bijyhz1sqi36"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/fbo4bijyhz1sqi36/base"
+  }
+}

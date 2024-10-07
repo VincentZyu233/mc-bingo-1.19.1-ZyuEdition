@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "fpz5hyzptd4y3sza": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "egg"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "fpz5hyzptd4y3sza"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "fpz5hyzptd4y3sza"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/fpz5hyzptd4y3sza/base"
+  }
+}

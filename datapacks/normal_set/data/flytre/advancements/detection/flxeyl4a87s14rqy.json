@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "flxeyl4a87s14rqy": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rail"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "flxeyl4a87s14rqy"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "flxeyl4a87s14rqy"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/flxeyl4a87s14rqy/base"
+  }
+}

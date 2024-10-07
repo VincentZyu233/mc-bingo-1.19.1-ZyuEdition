@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "2y73b6ut1z6tra0x": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "warped_sign"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "2y73b6ut1z6tra0x"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "2y73b6ut1z6tra0x"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/2y73b6ut1z6tra0x/base"
+  }
+}

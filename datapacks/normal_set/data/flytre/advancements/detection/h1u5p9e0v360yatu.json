@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "h1u5p9e0v360yatu": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "hopper"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "h1u5p9e0v360yatu"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "h1u5p9e0v360yatu"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/h1u5p9e0v360yatu/base"
+  }
+}

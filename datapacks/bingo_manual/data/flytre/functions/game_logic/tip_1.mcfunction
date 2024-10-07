@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"1. 使用 /trigger clarify set [1-25] 如果您不确定板上的物品或方块是什么.","color":"dark_green"}]

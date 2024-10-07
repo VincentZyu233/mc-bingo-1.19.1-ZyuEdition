@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "ajmnf7pdnu5p3l2j": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "crying_obsidian"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "ajmnf7pdnu5p3l2j"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "ajmnf7pdnu5p3l2j"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/ajmnf7pdnu5p3l2j/base"
+  }
+}

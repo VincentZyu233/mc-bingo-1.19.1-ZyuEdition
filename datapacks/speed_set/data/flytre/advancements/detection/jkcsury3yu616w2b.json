@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "jkcsury3yu616w2b": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cooked_mutton"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "jkcsury3yu616w2b"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "jkcsury3yu616w2b"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/jkcsury3yu616w2b/base"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "z3xp4w8xhcfh3e5b": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "red_mushroom"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "z3xp4w8xhcfh3e5b"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "z3xp4w8xhcfh3e5b"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/z3xp4w8xhcfh3e5b/base"
+  }
+}

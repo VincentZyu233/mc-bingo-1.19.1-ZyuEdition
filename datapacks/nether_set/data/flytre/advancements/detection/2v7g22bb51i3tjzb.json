@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "2v7g22bb51i3tjzb": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gold_block"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "2v7g22bb51i3tjzb"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "2v7g22bb51i3tjzb"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/2v7g22bb51i3tjzb/base"
+  }
+}

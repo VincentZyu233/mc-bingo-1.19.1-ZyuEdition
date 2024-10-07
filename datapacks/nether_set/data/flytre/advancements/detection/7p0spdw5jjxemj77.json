@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "7p0spdw5jjxemj77": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "coal"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "7p0spdw5jjxemj77"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "7p0spdw5jjxemj77"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/7p0spdw5jjxemj77/base"
+  }
+}

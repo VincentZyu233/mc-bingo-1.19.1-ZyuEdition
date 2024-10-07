@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "xorlyockaxaln14j": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pointed_dripstone"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "xorlyockaxaln14j"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "xorlyockaxaln14j"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/xorlyockaxaln14j/base"
+  }
+}

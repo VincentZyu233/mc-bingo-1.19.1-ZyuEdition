@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "wvg4uec0to31mm7m": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "iron_chestplate"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "wvg4uec0to31mm7m"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "wvg4uec0to31mm7m"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/wvg4uec0to31mm7m/base"
+  }
+}

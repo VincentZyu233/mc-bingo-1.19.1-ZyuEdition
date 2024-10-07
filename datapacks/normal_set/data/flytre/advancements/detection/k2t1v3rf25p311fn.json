@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "k2t1v3rf25p311fn": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rabbit_stew"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "k2t1v3rf25p311fn"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "k2t1v3rf25p311fn"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/k2t1v3rf25p311fn/base"
+  }
+}

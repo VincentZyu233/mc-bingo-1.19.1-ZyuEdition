@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "liqek9mavc4bvssk": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blaze_rod"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "liqek9mavc4bvssk"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "liqek9mavc4bvssk"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/liqek9mavc4bvssk/base"
+  }
+}

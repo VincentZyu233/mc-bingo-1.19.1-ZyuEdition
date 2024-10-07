@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"3. 使用 /trigger vote_end 开始抽签投票是否提前结束游戏","color":"dark_green"}]

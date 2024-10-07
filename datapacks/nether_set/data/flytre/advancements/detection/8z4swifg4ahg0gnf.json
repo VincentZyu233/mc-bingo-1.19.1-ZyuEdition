@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "8z4swifg4ahg0gnf": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "golden_boots"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "8z4swifg4ahg0gnf"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "8z4swifg4ahg0gnf"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/8z4swifg4ahg0gnf/base"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "rfu49ehtjt1oqq7l": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cookie"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "rfu49ehtjt1oqq7l"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "rfu49ehtjt1oqq7l"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/rfu49ehtjt1oqq7l/base"
+  }
+}

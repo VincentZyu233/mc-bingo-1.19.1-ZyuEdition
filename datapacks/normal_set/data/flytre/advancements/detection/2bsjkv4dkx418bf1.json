@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "2bsjkv4dkx418bf1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "flint"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "2bsjkv4dkx418bf1"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "2bsjkv4dkx418bf1"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/2bsjkv4dkx418bf1/base"
+  }
+}

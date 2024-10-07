@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "lqlu1w3l9yaqlfno": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "smoker"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "lqlu1w3l9yaqlfno"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "lqlu1w3l9yaqlfno"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/lqlu1w3l9yaqlfno/base"
+  }
+}

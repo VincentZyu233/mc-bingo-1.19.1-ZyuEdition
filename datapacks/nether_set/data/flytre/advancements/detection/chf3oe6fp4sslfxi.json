@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "chf3oe6fp4sslfxi": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "soul_torch"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "chf3oe6fp4sslfxi"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "chf3oe6fp4sslfxi"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/chf3oe6fp4sslfxi/base"
+  }
+}

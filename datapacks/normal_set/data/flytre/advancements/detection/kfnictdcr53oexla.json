@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "kfnictdcr53oexla": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dried_kelp_block"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "kfnictdcr53oexla"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "kfnictdcr53oexla"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/kfnictdcr53oexla/base"
+  }
+}

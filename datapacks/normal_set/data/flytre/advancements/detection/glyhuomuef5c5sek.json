@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "glyhuomuef5c5sek": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "blast_furnace"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "glyhuomuef5c5sek"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "glyhuomuef5c5sek"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/glyhuomuef5c5sek/base"
+  }
+}

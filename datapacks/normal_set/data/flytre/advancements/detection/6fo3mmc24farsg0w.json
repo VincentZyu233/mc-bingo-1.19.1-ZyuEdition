@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "6fo3mmc24farsg0w": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "beetroot"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "6fo3mmc24farsg0w"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "6fo3mmc24farsg0w"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/6fo3mmc24farsg0w/base"
+  }
+}

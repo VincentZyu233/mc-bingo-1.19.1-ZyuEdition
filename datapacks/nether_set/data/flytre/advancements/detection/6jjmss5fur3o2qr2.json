@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "6jjmss5fur3o2qr2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "warped_wart_block"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "6jjmss5fur3o2qr2"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "6jjmss5fur3o2qr2"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/6jjmss5fur3o2qr2/base"
+  }
+}

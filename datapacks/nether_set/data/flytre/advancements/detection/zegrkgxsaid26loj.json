@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "zegrkgxsaid26loj": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "gilded_blackstone"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "zegrkgxsaid26loj"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "zegrkgxsaid26loj"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/zegrkgxsaid26loj/base"
+  }
+}

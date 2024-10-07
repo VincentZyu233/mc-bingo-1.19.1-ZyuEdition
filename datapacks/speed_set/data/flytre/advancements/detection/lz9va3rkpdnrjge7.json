@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "lz9va3rkpdnrjge7": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dead_bush"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "lz9va3rkpdnrjge7"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "lz9va3rkpdnrjge7"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/lz9va3rkpdnrjge7/base"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "udbphfn8n55hgm81": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pufferfish"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "udbphfn8n55hgm81"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "udbphfn8n55hgm81"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/udbphfn8n55hgm81/base"
+  }
+}

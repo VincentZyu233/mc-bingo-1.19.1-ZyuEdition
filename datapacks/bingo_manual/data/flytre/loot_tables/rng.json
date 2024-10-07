@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_shovel",
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": {"min": 0, "max": 1}
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

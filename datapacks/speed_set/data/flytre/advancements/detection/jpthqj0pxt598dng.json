@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "jpthqj0pxt598dng": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lily_of_the_valley"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "jpthqj0pxt598dng"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "jpthqj0pxt598dng"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/jpthqj0pxt598dng/base"
+  }
+}

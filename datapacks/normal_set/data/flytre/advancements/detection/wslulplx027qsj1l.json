@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "wslulplx027qsj1l": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "activator_rail"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "wslulplx027qsj1l"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "wslulplx027qsj1l"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/wslulplx027qsj1l/base"
+  }
+}

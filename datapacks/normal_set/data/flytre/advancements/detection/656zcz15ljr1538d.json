@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "656zcz15ljr1538d": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "observer"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "656zcz15ljr1538d"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "656zcz15ljr1538d"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/656zcz15ljr1538d/base"
+  }
+}

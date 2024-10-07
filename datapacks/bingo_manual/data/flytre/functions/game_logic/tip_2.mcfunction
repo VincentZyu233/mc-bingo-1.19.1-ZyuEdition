@@ -1,0 +1,1 @@
+tellraw @a ["",{"text":"2. 使用 /trigger team_tp 传送到随机队友","color":"dark_green"}]

@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "fs3wwe8cqstr22dl": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cake"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "fs3wwe8cqstr22dl"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "fs3wwe8cqstr22dl"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/fs3wwe8cqstr22dl/base"
+  }
+}

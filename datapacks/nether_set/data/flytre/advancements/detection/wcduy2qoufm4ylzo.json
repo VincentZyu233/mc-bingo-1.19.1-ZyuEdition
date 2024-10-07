@@ -1,0 +1,41 @@
+{
+  "parent": "flytre:items/root",
+  "criteria": {
+    "wcduy2qoufm4ylzo": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "basalt"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "wcduy2qoufm4ylzo"
+              },
+              "score": "global"
+            },
+            "range": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "wcduy2qoufm4ylzo"
+    ]
+  ],
+  "rewards": {
+    "function": "flytre:detect/wcduy2qoufm4ylzo/base"
+  }
+}
