@@ -17,7 +17,8 @@ execute if score in stage matches 1 unless score sec stage matches 10.. run titl
 
 
 # 夜视
-effect give @a minecraft:night_vision 99999 1
+effect give @a minecraft:night_vision 99999 1 true
+effect give @a minecraft:haste 99999 1 true
 
 # 三维度同步死亡掉落设置
 execute at @a if score keepInventory stage matches 0 run gamerule keepInventory false
